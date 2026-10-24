@@ -125,6 +125,7 @@
         <p>إذا كنت مسجّلًا في iCloud على جهازك، يزامن التطبيق بياناتك عبر <b>قاعدة البيانات الخاصة</b> في خدمة Apple CloudKit ضمن حساب iCloud الخاص بك، لتظهر على أجهزتك الأخرى المسجّلة بالحساب نفسه. هذه البيانات مرتبطة بحسابك في iCloud، وتديرها Apple وفق <a href="https://www.apple.com/legal/privacy/" rel="noopener">سياسة خصوصية Apple</a>، ولا يستطيع المطوّر الاطلاع عليها.</p>
         <p>إذا لم تكن مسجّلًا في iCloud، أو أوقفت iCloud لهذا التطبيق، تبقى بياناتك على جهازك فقط.</p>
         <p>لمعرفة متى يغيّر جهازك حساب iCloud، يحفظ التطبيق <b>على جهازك فقط</b> رمزًا مشفّرًا باتجاه واحد (hash) مشتقًا من معرّف حسابك في CloudKit. لا يمكن استرجاع المعرّف من هذا الرمز، ولا يُرسل إلى أي جهة.</p>
+        <p>عند استخدامك iCloud، تُنشئ خدمة CloudKit من Apple تلقائيًا سجل مستخدم للتطبيق يحمل معرّفًا عشوائيًا مرتبطًا بحسابك في iCloud. لا يحتوي هذا السجل على اسمك أو بريدك أو أي بيانات شخصية أخرى، ولا نستخدمه لأي غرض.</p>
         <h3>المحتوى العام</h3>
         <p>يجلب التطبيق نصائح العناية والأسئلة الشائعة والإعلانات من <b>قاعدة البيانات العامة</b> في Apple CloudKit. هذا المحتوى نفسه لكل المستخدمين، ولا يُرسل التطبيق في هذا الطلب أي بيانات شخصية. وكأي اتصال بالإنترنت، تعالج Apple معلومات الاتصال التقنية مثل عنوان IP لتقديم الخدمة.</p>
       </section>
@@ -296,6 +297,7 @@
         <p>If you're signed in to iCloud on your device, the app syncs your data through the <b>private database</b> of Apple CloudKit in your own iCloud account, so it appears on your other devices signed in to the same account. This data is tied to your iCloud account, is handled by Apple under the <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple Privacy Policy</a>, and cannot be accessed by the developer.</p>
         <p>If you're not signed in to iCloud, or you turn off iCloud for the app, your data stays on your device only.</p>
         <p>To notice when your device switches iCloud accounts, the app stores <b>on your device only</b> a one-way hash derived from your CloudKit user identifier. The identifier can't be recovered from it, and it isn't sent anywhere.</p>
+        <p>When you use iCloud, Apple's CloudKit automatically creates a user record for the app with a random identifier tied to your iCloud account. It contains no name, email or other personal details, and we don't use it for anything.</p>
         <h3>Public content</h3>
         <p>The app downloads care tips, frequently asked questions and announcements from Apple CloudKit's <b>public database</b>. This content is the same for everyone, and the app sends no personal data with that request. As with any internet connection, Apple processes technical connection information such as your IP address to provide the service.</p>
       </section>
