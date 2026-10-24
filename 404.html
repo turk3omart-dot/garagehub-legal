@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-title-ar="الصفحة غير موجودة · GarageHub" data-title-en="Page not found · GarageHub">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found · GarageHub</title>
+<meta name="robots" content="noindex">
+<script>
+  // GitHub Pages serves this page for any missing path, at any depth, so relative links
+  // can't be trusted here. Point them at the site root: /<repo>/ on github.io, / elsewhere.
+  (function () {
+    var seg = location.pathname.split('/')[1];
+    var root = /\.github\.io$/.test(location.hostname) && seg ? '/' + seg + '/' : '/';
+    document.write('<base href="' + root + '">');
+  })();
+</script>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/site.js"></script>
+</head>
+<body>
+<main id="main" class="wrap narrow" style="min-height:80vh;display:grid;place-content:center;text-align:center;padding-block:64px">
+  <img src="assets/img/logo.png" alt="GarageHub" width="600" height="334" style="width:200px;margin:0 auto 28px">
+  <div data-l="ar" lang="ar" dir="rtl">
+    <h1>الصفحة غير موجودة</h1>
+    <p style="color:var(--subtext)">ربما تغيّر الرابط. هذه الصفحات المتاحة:</p>
+  </div>
+  <div data-l="en" lang="en" dir="ltr">
+    <h1>Page not found</h1>
+    <p style="color:var(--subtext)">The link may have changed. Here's what's available:</p>
+  </div>
+  <p style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center">
+    <a class="btn btn-primary" href="./"><span data-l="ar" lang="ar">الرئيسية</span><span data-l="en" lang="en">Home</span></a>
+    <a class="btn btn-ghost" href="privacy/"><span data-l="ar" lang="ar">سياسة الخصوصية</span><span data-l="en" lang="en">Privacy Policy</span></a>
+    <a class="btn btn-ghost" href="support/"><span data-l="ar" lang="ar">الدعم</span><span data-l="en" lang="en">Support</span></a>
+  </p>
+</main>
+</body>
+</html>
